@@ -169,3 +169,37 @@
      margin-top: 3vh;
      padding-bottom: 3vh;
  }
+
+ @media (max-width: 600px) {
+     nav img {
+         width: 10vw;
+         height: 8vh;
+     }
+     nav{
+        height: 8vh;
+     }
+     nav ul{
+        margin-top: -2vh;
+     }
+     .hero {
+         height: 40vh;
+         overflow-y: hidden;
+     }
+
+     #myVideo {
+         margin-top: -20vh;
+     }
+
+     nav ul li a {
+         font-size: 1.5vw;
+     }
+
+     .search {
+         padding: 0px;
+     }
+
+     footer .footerele div .search {
+         height: 1.5vh;
+     }
+
+ }
